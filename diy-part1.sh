@@ -50,6 +50,10 @@ git clone -b main https://github.com/oppen321/luci-app-adguardhome package/luci-
 # OpenAppFilter应用过滤
 git clone -b main https://github.com/oppen321/OpenAppFilter package/OpenAppFilter
 
+# 5G-Modem-Support
+git clone -b main https://github.com/Siriling/5G-Modem-Support.git
+
+
 
 ./scripts/feeds update -a
 ./scripts/feeds install -a
